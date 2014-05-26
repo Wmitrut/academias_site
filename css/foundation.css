@@ -1328,11 +1328,11 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #4AA3DF; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: #F1C40F; }
       .top-bar.expanded .toggle-topbar a::after {
-        box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+        box-shadow: 0 10px 0 1px #4AA3DF, 0 16px 0 1px #4AA3DF, 0 22px 0 1px #4AA3DF; }
 
 .top-bar-section {
   left: 0;
@@ -1343,7 +1343,7 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    background: #4AA3DF;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -1362,7 +1362,7 @@ meta.foundation-mq-topbar {
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none;
-    background: #333333; }
+    background: #4AA3DF; }
     .top-bar-section ul li > a.button {
       font-size: 0.8125rem;
       width: 80px;
