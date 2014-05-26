@@ -1,3 +1,6 @@
+html{
+	background: #dbdbdb;
+}
 .logo_position{
 	margin-left:5px;
 	margin-top: 7px;
@@ -36,9 +39,22 @@ background-position: 0px 5px;
 	padding: 15px;
 	text-align: center;
 }
-.teste{
+.blue{
+	width: 100%;
+	height: 45px;
+	background: #4AA3DF;
+	margin: 0;
+}
+.grey{
+	width: 100%;
+	height: 45px;
+	background: #dbdbdb;
+	margin: 0;
+}
+.yellow{
 	width: 100%;
 	background: #f1c40f;
+	margin: 0;
 }
 .ch-grid {
     margin: 20px 0 0 0;
@@ -75,7 +91,7 @@ background-position: 0px 5px;
     box-shadow: 
         inset 0 0 0 16px rgba(255,255,255,0.6),
         0 1px 2px rgba(0,0,0,0.1);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .ch-img-1 { 
     background-image: url(../img/miniimg1.jpg);
