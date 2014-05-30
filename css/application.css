@@ -21,9 +21,15 @@ h1{
 	font-family: "foundation-icons"
 }
 footer{
-	padding: 10px;
+	padding: 15px;
 	background: #272822;
-	color: #fff;
+	color: #fff; 
+}
+.finance_1{
+    padding-left: 30px;
+}
+.finance_2{
+    padding-right: 30px;
 }
 ul
 {
@@ -37,22 +43,20 @@ margin: 0px !important;
 	padding: 15px;
 	text-align: center;
 }
-.blue{
-	width: 100%;
-    color: #ffffff;
-    background-color: #4AA3DF;
-	margin: 0;
+.blue,.grey,.yellow{
+    width: 100%;
+    margin: 0px !important;
     text-align: center;
+    background-color: #4AA3DF;
 }
-.grey{
-	width: 100%;
+.blue{	
+    color: #ffffff;
+}
+.grey{	
 	background: #dbdbdb;
-	margin: 0;
 }
-.yellow{
-	width: 100%;
+.yellow{	
 	background: #f1c40f;
-	margin: 0;
 }
 .ch-grid {
     margin: 20px 0 0 0;
