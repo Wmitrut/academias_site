@@ -2435,7 +2435,7 @@ div.switch {
     float: none;
     text-align: center;
     display: block; }
-    .orbit-container .orbit-bullets li {
+    .orbit-container .orbit-bullets li {  
       display: inline-block;
       width: 0.5625rem;
       height: 0.5625rem;

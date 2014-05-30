@@ -11,6 +11,9 @@ html{
 header{
 	background: #4AA3DF;
 }
+h1{
+    color: #fff !important;
+}
 .facebook:before {
 	font-family: "foundation-icons"
 }
@@ -26,14 +29,9 @@ ul
 {
 list-style-type: none;
 padding: 0px;
-margin: 0px;
+margin: 0px !important;
 }
-ul li
-{
-background-image: url(sqpurple.gif);
-background-repeat: no-repeat;
-background-position: 0px 5px; 
-}
+
 .copyright{
 	width: 100%;
 	padding: 15px;
@@ -41,10 +39,10 @@ background-position: 0px 5px;
 }
 .blue{
 	width: 100%;
-	background-image: url(../img/img3.jpg);
-    background-repeat: no-repeat;
-    -webkit-filter: blur(5px);
+    color: #ffffff;
+    background-color: #4AA3DF;
 	margin: 0;
+    text-align: center;
 }
 .grey{
 	width: 100%;
