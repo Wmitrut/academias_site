@@ -26,10 +26,14 @@ footer{
 	color: #fff; 
 }
 .finance_1{
-    padding-left: 30px;
+    padding-left: 80px;
 }
 .finance_2{
-    padding-right: 30px;
+    padding-right: 80px;
+}
+#parallax{
+    background-attachment:fixed;
+    background-repeat: no-repeat;
 }
 ul
 {
@@ -49,6 +53,9 @@ margin: 0px !important;
     text-align: center;
     background-color: #4AA3DF;
 }
+.blue_bg{
+    background: url(../img/imgblue.jpg);
+}
 .blue{	
     color: #ffffff;
 }
@@ -58,6 +65,16 @@ margin: 0px !important;
 .yellow{	
 	background: #f1c40f;
 }
+
+.style2 {
+font-size: 70px;
+color: #2DAEBF;
+text-shadow: 0px 1px 0px #0092b3,
+0px 2px 0px #0087a6,0px 3px 0px #008099,
+0px 4px 0px #00758c,0px 5px 0px #555,0px 6px 0px #006a80,
+0px 0px 0px #006073,0px 8px 7px #005566;
+}
+
 .ch-grid {
     margin: 20px 0 0 0;
     padding: 0;
@@ -169,4 +186,44 @@ margin: 0px !important;
 }
 .ch-item:hover .ch-info p {
     opacity: 1;
+}
+
+
+li.tooltips {
+  position: relative;
+  display: inline;
+}
+.tooltips span {
+  position: absolute;
+  width:400px;
+  color:#000000 ;
+  background: #FFFFFF;
+  height: 78px;
+  line-height: 78px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 13px;
+}
+li.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px;
+  width: 0; height: 0;
+  border-right: 8px solid #ffffff;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+li:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.6;
+  left: 100%;
+  top: 50%;
+  margin-top: -39px;
+  margin-left: 15px;
+  z-index: 999;
+  -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
 }

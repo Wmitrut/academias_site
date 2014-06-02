@@ -60,10 +60,14 @@
 			<div class="yellow">
 					<ul class="ch-grid">
 					    <li>
-					       <a href="#"><div class="ch-item ch-img-1">
+					     <a href="#"><div class="ch-item ch-img-1">
 					            <div class="ch-info">
 					                <h3>Controle de Acesso</h3>
-					                <p>Controle com catraca automatizada</p>
+					                 <span><strong>Controle de Acesso Automatizado</strong><br />
+									        Controle quem entra e sai da sua academia!
+									    </span>
+									</a>
+
 					            </div>
 					        </div></a>
 					    </li>
@@ -94,22 +98,28 @@
 					</ul>
 				</div>
 
-				<div class="blue">
+				<div class="blue blue_bg" id="parallax"  data-stellar-ratio="2">
+					
 					<h1>Integração</h1>
 						<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
 							<div class="left finance_1">
 								<ul>
-										<li>
+										<li class="tooltips">
 											 <a href="#" class="hi-icon hi-icon-mobile"></a>
 										    Tablets
+										    <span> Todos os tablets interligados com osishtema</span>
 										</li>
-										<li>							   
+
+										<li class="tooltips">							   
 										    <a href="#" class="hi-icon hi-icon-star"></a>
 										    Bicicletas
-										</li>	
-										<li>
+										    <span> Todos os tablets interligados com osishtema</span>
+										</li>
+											
+										<li class="tooltips">
 										    <a href="#" class="hi-icon hi-icon-bookmark"></a>
 										    Esteiras
+										    <span> Todos os tablets interligados com osishtema</span>					  
 										</li>
 
 									</ul>
@@ -149,21 +159,11 @@
 				<div class="blue">
 					<ul data-orbit>
 						<li class="grey">
-							:D
-							:D
-							:D
-							<br>
-							:D
-							:D
+							  <i class="fi-cloud style2"></i>
 						</li>
 
 						<li class="yellow">
-							:D
-							:D
-							:D
-							<br>
-							:D
-							:D
+							<i class="fi-cloud style2"></i>
 						</li>
 					</ul>
 				</div>
@@ -201,11 +201,14 @@
 			      <div class="copyright">© 2013–2014 Academi.as, Todos os direitos reservados.</div>
 			</footer>
 
-	<script src="js/vendor/modernizr.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-	<script src="js/foundation/foundation.orbit.js"></script>
-    <script src="js/vendor/jquery.js"></script>	
-    <script src="./js/foundation.min.js"></script>
-    <script>$(document).foundation();</script>
+				<script src="js/vendor/modernizr.js"></script>
+				<script src="js/stellar.js-master/src/jquery.stellar.js"></script>	
+
+			    <script src="js/foundation/foundation.js"></script>
+				<script src="js/foundation/foundation.orbit.js"></script>
+			    <script src="js/vendor/jquery.js"></script>	
+			    <script src="./js/foundation.min.js"></script>
+			    <script>$(document).foundation();</script>
+			    <script>$('#parallax').stellar();</script>
 		</body>
 </html>
