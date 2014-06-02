@@ -1,5 +1,5 @@
 html{
-	background: #dbdbdb;
+  width: 100%;
 }
 .logo_position{
 	margin-left:5px;
@@ -7,6 +7,8 @@ html{
 }
 .conteudo{
 	width: 100%;
+  overflow: hidden;   
+  
 }
 header{
 	background: #4AA3DF;
@@ -24,12 +26,10 @@ footer{
 	padding: 15px;
 	background: #272822;
 	color: #fff; 
-}
-.finance_1{
-    padding-left: 80px;
+  z-index: 999;
 }
 .finance_2{
-    padding-right: 80px;
+    padding-top: 65px;
 }
 #parallax{
     background-attachment:fixed;
@@ -47,6 +47,18 @@ margin: 0px !important;
 	padding: 15px;
 	text-align: center;
 }
+.aplicativo{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  width: 30%;
+  padding: 30px;
+  margin-left: 5%;
+  float: left;
+  border-radius: 10px;
+  text-align: justify;
+
+}
 .blue,.grey,.yellow{
     width: 100%;
     margin: 0px !important;
@@ -55,6 +67,19 @@ margin: 0px !important;
 }
 .blue_bg{
     background: url(../img/imgblue.jpg);
+     background-size: cover;
+}
+.finbg{
+   background: url(../img/finbg.jpg);
+  background-size: cover;
+  padding: 0px;
+  text-align: center;
+}
+.yellow_bg{
+    background: url(../img/app3.jpg);
+    height: 300px;
+    text-align: center;
+    background-size: cover;
 }
 .blue{	
     color: #ffffff;
@@ -64,16 +89,9 @@ margin: 0px !important;
 }
 .yellow{	
 	background: #f1c40f;
+  color: #ffffff;
 }
 
-.style2 {
-font-size: 70px;
-color: #2DAEBF;
-text-shadow: 0px 1px 0px #0092b3,
-0px 2px 0px #0087a6,0px 3px 0px #008099,
-0px 4px 0px #00758c,0px 5px 0px #555,0px 6px 0px #006a80,
-0px 0px 0px #006073,0px 8px 7px #005566;
-}
 
 .ch-grid {
     margin: 20px 0 0 0;
@@ -189,41 +207,41 @@ text-shadow: 0px 1px 0px #0092b3,
 }
 
 
+
 li.tooltips {
   position: relative;
   display: inline;
 }
-.tooltips span {
+li.tooltips span {
   position: absolute;
   width:400px;
-  color:#000000 ;
+  color: #000000;
   background: #FFFFFF;
-  height: 78px;
-  line-height: 78px;
+  height: 80px;
+  line-height: 80px;
   text-align: center;
-  visibility: hidden;
-  border-radius: 13px;
+  opacity: 0;
+  border-radius: 6px;
+  -webkit-transition: * 2.5s;
+    -moz-transition: * 2.5s;
+    transition: * 2.5s;
 }
 li.tooltips span:after {
   content: '';
   position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -8px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -50px;
   width: 0; height: 0;
-  border-right: 8px solid #ffffff;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
+  border-bottom: 8px solid #FFFFFF;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
 }
 li:hover.tooltips span {
-  visibility: visible;
-  opacity: 0.6;
-  left: 100%;
-  top: 50%;
-  margin-top: -39px;
-  margin-left: 15px;
+  opacity: 0.5;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
   z-index: 999;
-  -webkit-transition: background 0.2s, color 0.2s;
-    -moz-transition: background 0.2s, color 0.2s;
-    transition: background 0.2s, color 0.2s;
-}
+
+}   
