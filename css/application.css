@@ -98,10 +98,12 @@ margin: 0px !important;
      background-size: cover;
 }
 .finbg{
-   background: url(../img/finbg.jpg);
-  background-size: cover;
+  background:#ffffff;
   padding: 0px;
   text-align: center;
+}
+.finbg * {
+  color: #334 !important;
 }
 .yellow_bg{
     background: url(../img/app3.jpg);
