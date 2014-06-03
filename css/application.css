@@ -7,13 +7,35 @@ html{
 }
 .conteudo{
 	width: 100%;
-  overflow: hidden;   
-  
+
+} 
+/*slides*/
+.slide-content{
+  position: absolute;
+  bottom: 70px;
+  margin-left: 20px;
+  color: white;
+  float: right;
+}
+#slide1{
+  background: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.orbitbutton{
+  border-radius: 10px;
+  background: #F39C12;
+  position: absolute;
+}
+.orbitbutton:hover{
+   background: #F7CA18; 
 }
 header{
 	background: #4AA3DF;
 }
-h1{
+h1,h2, h3, h4{
     color: #fff !important;
 }
 .facebook:before {
@@ -28,8 +50,14 @@ footer{
 	color: #fff; 
   z-index: 999;
 }
+.finance_1{
+    float: left;
+    margin-left: 15%;
+}
 .finance_2{
-    padding-top: 65px;
+    float: right;
+    padding: 50px;
+    margin-right: 15%;
 }
 #parallax{
     background-attachment:fixed;
@@ -48,13 +76,13 @@ margin: 0px !important;
 	text-align: center;
 }
 .aplicativo{
+
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.6);
   background: rgba(0, 0, 0, 0.6);
   width: 30%;
   padding: 30px;
-  margin-left: 5%;
-  float: left;
+  margin: 0 auto;
   border-radius: 10px;
   text-align: justify;
 
@@ -218,7 +246,7 @@ li.tooltips span {
   color: #000000;
   background: #FFFFFF;
   height: 80px;
-  line-height: 80px;
+  padding: 20px;
   text-align: center;
   opacity: 0;
   border-radius: 6px;
@@ -245,3 +273,6 @@ li:hover.tooltips span {
   z-index: 999;
 
 }   
+.links{
+  float: right;
+}
