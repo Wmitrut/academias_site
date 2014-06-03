@@ -38,6 +38,10 @@ header{
 h1,h2, h3, h4{
     color: #fff !important;
 }
+h4 {
+max-width: 900px;
+margin: 0 auto;
+}
 .facebook:before {
 	font-family: "foundation-icons"
 }
@@ -284,4 +288,10 @@ li:hover.tooltips span {
     width: 220px;
     padding-top: 60px;
     margin-left: 220px;
+}
+.finbg,.yellow_bg,.blue{
+  padding: 1px;
+}
+.slider{
+  padding: 0 !important;
 }
