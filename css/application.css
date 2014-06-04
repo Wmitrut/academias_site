@@ -87,6 +87,10 @@ margin: 0px !important;
   text-align: justify;
 
 }
+.aplicativo_desc{ 
+  width: 500px;
+  margin: 0 20% 0 50%;
+}
 .blue,.grey,.yellow{
     width: 100%;
     margin: 0px !important;
@@ -108,7 +112,7 @@ margin: 0px !important;
 }
 .yellow_bg{
     background: url(../img/app3.jpg);
-    
+    height: 625px;
     text-align: center;
     background-size: cover;
 }
@@ -119,7 +123,7 @@ margin: 0px !important;
 	background: #dbdbdb;
 }
 .yellow{	
-	background: #f1c40f;
+	background: #F39C12;
   color: #ffffff;
 }
 
@@ -283,6 +287,9 @@ li:hover.tooltips span {
 .celular{
   background: url("../img/hand.png");
   background-repeat: no-repeat;
+  float: left;
+  width: 600px;
+  height: 600;
 }
 .clear{
   clear: both;
