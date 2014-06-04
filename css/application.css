@@ -92,6 +92,7 @@ margin: 0px !important;
     margin: 0px !important;
     text-align: center;
     background-color: #4AA3DF;
+
 }
 .blue_bg{
     background: url(../img/imgblue.jpg);
@@ -236,12 +237,12 @@ margin: 0px !important;
     opacity: 1;
 }
 
-
-
 li.tooltips {
   position: relative;
   display: inline;
-  white-space: nowrap;
+}
+li.tooltips:not(span){
+    white-space: nowrap;
 }
 li.tooltips span {
   position: absolute;
@@ -258,8 +259,8 @@ li.tooltips span {
     -moz-transition: * 2.5s;
     transition: * 2.5s;
   top: 30px;
-  left: 50%;
-  margin-left: -76px;
+  left: 30%;
+  margin-left: -56px;
   z-index: 999;
 }
 li.tooltips span:after {
