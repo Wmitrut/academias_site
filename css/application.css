@@ -52,7 +52,7 @@ footer{
 	padding: 15px;
 	background: #272822;
 	color: #fff; 
-  z-index: 999;
+  z-index: 99999;
 }
 .finance_1{
 text-align: center;
@@ -107,7 +107,7 @@ margin: 0px !important;
   padding: 0px;
   text-align: center;
 }
-.finbg * {
+.finbg *,.grey *{
   color: #334 !important;
 }
 .finbg_img{
@@ -127,6 +127,7 @@ margin: 0px !important;
 }
 .grey{	
 	background: #dbdbdb;
+  color: #334;
 }
 .yellow{	
 	background: #F39C12;
@@ -316,8 +317,9 @@ i {
     padding-top: 60px;
     margin-left: 220px;
 }
-.finbg,.yellow_bg,.blue{
-  padding: 1px;
+.finbg,.yellow_bg,.blue,.grey{
+  padding: 2%;
+
 }
 .slider{
   padding: 0 !important;
