@@ -324,3 +324,16 @@ i {
 .slider{
   padding: 0 !important;
 }
+.image_container{
+  width: 300px;
+}
+.round_img img{
+  border-radius: 100%;
+  border:20px solid rgba(255,255,255,0.3)
+}
+.round_img.right img{
+  margin-top: 300px;
+}
+.round_img.left img{
+  margin-top: 150px;
+}
