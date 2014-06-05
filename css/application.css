@@ -88,8 +88,7 @@ margin: 0px !important;
 
 }
 .aplicativo_desc{ 
-  width: 500px;
-  margin: 0 20% 0 50%;
+  padding: 2%;
 }
 .blue,.grey,.yellow{
     width: 100%;
@@ -118,7 +117,7 @@ margin: 0px !important;
 }
 .yellow_bg{
     background: url(../img/app3.jpg);
-    height: 625px;
+    height: 650px;
     text-align: center;
     background-size: cover;
 }
@@ -306,7 +305,7 @@ li:hover.tooltips span {
   background-repeat: no-repeat;
   float: left;
   width: 600px;
-  height: 600;
+  height: 552px;
 }
 i {
   display:block;
