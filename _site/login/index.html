@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login - Academi.as </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="O sistema de gestão de academias mais completo do Brasil.">
+    <link rel="canonical" href="http://yourdomain.com/login/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/application.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/foundation-icons/foundation-icons.css">
+   	<link rel="stylesheet" href="/IconHoverEffects/css/component.css" />
+</head>
+
+
+    <body>
+
+    <header class="fixed">
+      <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+              <li class="name">
+                <a href="/"><img class="logo_position" src="/img/logo.png"></a>
+              </li>
+               
+              <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+              <ul class="left">
+                <li><a href="/conheca">Conheça</a></li>
+              </ul>
+              <ul class="left">
+                <li><a href="/funcionalidades">Funcionalidades</a></li>
+              </ul>
+              <ul class="left">
+                <li><a href="/adquira">Adquira</a></li>
+              </ul>
+              <ul class="left">
+                <li><a href="/duvidas">Dúvidas</a></li>
+              </ul>
+              <ul class="right has-form">
+                <li><a href="/login" class="button">Login</a></li>
+              </ul>
+
+            </section>
+      </nav>
+</header>
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="conteudo blue_bg " style="padding:11.5%;">	
+
+		<div class="login_container">
+			<form class="form-4" id="j_idt55" action="http://academi.as/j_spring_security_check" name="j_idt55" method="post" enctype="application/x-www-form-urlencoded">
+				    <h4>Acesso</h4>
+				    <p>
+
+				    	<input type="hidden" name="j_idt55" value="j_idt55">
+				        <input type="text" name="j_username" id="j_username" placeholder="Usuário" required>
+
+				    </p>
+				    <p>
+				        <input type="password" name="j_password" id="j_password" placeholder="Senha" required> 
+				    </p>				 
+				    <p>
+	                    <input id="login" name="login"  type="submit" value="Login">
+				    </p>       
+			</form>			
+		</div>
+</div>
+      </div>
+    </div>
+
+    <footer class="footer-bottom">
+	<div class="copyright">© 2013–2014 Academi.as, Todos os direitos reservados.</div>
+</footer>
+        <script src="/js/vendor/jquery.js"></script> 
+        <script src="/js/vendor/modernizr.js"></script>        
+        <script src="/js/foundation/foundation.js"></script>
+        <script src="/js/foundation/foundation.orbit.js"></script>         
+        <script src="/js/foundation.min.js"></script>
+        <script src="/js/stellar.js-master/src/jquery.stellar.js"></script>  
+        <script>$(document).foundation();</script>
+        <script>$('.parallax').stellar();</script>
+    </body>
+</html>
