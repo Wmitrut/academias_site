@@ -32,6 +32,9 @@ html{
   background: #F39C12;
   position: absolute;
 }
+.orbit-bullets{
+  display: none !important;
+}
 .orbitbutton:hover{
    background: #F7CA18; 
 }
