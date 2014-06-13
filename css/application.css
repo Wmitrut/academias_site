@@ -183,17 +183,21 @@ margin: 0px !important;
 }
 .ch-img-1 { 
     background-image: url(../img/miniimg1.jpg);
+    background-size: cover;
 }
  
 .ch-img-2 { 
     background-image: url(../img/miniimg2.jpg);
+    background-size: cover;
 }
  
 .ch-img-3 { 
     background-image: url(../img/miniimg3.jpg);
+    background-size: cover;
 }
 .ch-img-4 { 
     background-image: url(../img/miniimg4.jpg);
+    background-size: cover;
 }
 .ch-info {
     position: absolute;
