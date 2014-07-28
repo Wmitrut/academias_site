@@ -1,0 +1,20 @@
+<html>
+<head>
+<script>
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1;
+if(isAndroid) {
+  window.location = 'https://play.google.com/store/apps/details?id=academi.as.alunos';
+} else {
+  window.location = 'http://alunos.academi.as';
+}
+</script>
+</head>
+<body>
+Aguarde, redirecionando...
+<br/>
+<a href="https://play.google.com/store/apps/details?id=academi.as.alunos">Android</a>
+<br/>
+<a href="http://alunos.academi.as">Web</a>
+</body>
+</html>
