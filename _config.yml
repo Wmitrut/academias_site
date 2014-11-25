@@ -1,9 +1,9 @@
 # Site settings
 title: Academi.as 
-email: your-email@domain.com
+email:  comercial@ideem.com.br
 description: "O sistema de gestão de academias mais completo do Brasil."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://academi.as"
 
 # Build settings
 markdown: kramdown
